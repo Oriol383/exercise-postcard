@@ -1,0 +1,73 @@
+body {
+	background-image: url("https://i.pinimg.com/736x/38/a6/09/38a609b9063079b4af16490dbefa7e8e.jpg");
+}
+* {
+	border: 1px;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	margin-top: 130px;
+	padding: 30px;
+	border-radius: 10%;
+	border: 5px dashed rgb(195, 11, 48);
+	font-family: "Courier New", Courier;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.postcard-header {
+	display: flex;
+	padding-top: 25px;
+}
+.postcard-header img {
+	width: 75px;
+	height: 75px;
+	padding-left: 10px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: auto;
+}
+input {
+	border-bottom: 1px dashed rgb(0, 41, 104);
+	padding: 10px;
+	font-family: "Courier New", Courier;
+	font-size: medium;
+	font-style: italic;
+	color: rgb(41, 41, 41);
+}
+input:nth-child(2) {
+	border-bottom: 1px dashed rgb(195, 11, 48);
+}
+.postcard-footer {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+button {
+	background-color: rgb(0, 41, 104);
+	padding: 10px;
+	border-radius: 10%;
+	color: white;
+	font-style: italic;
+	font-weight: bolder;
+}
+button:hover {
+	background-color: rgb(2, 24, 56);
+	border-color: rgb(0, 0, 0);
+}
+button:active {
+	color: rgb(195, 11, 48);
+}
